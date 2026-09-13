@@ -3,7 +3,8 @@ from pyscript import display, document
 
 def skugeneration(e):
     document.getElementById('result2').innerHTML = " "
-
+    document.getElementById("receipt").style.display = "block"
+    
     # Variables
     category = document.getElementById("category").value
     product_name = document.getElementById("product_name").value
