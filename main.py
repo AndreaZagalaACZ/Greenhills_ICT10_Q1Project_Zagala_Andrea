@@ -2,8 +2,10 @@
 from pyscript import display, document
 
 def menuorder(e):
-    # Variables for the menu list
     document.getElementById('result').innerHTML = " "
+    document.getElementById("receipt").style.display = "block"
+    
+    # Variables for the menu list
     americano = document.getElementById("order1")
     spanish_latte = document.getElementById("order2")
     strawberry_frappe = document.getElementById("order3")
